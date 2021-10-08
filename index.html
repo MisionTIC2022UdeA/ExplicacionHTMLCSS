@@ -4,6 +4,7 @@
         <meta charset="UTF-8-"/>
         <meta http-equiv="X-UA-Compatible" content="IE-edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="./styles/estilos.css" rel="stylesheet"/>
         <title>Hola, Este es el Titulo</title>
         <!-- <description>Esta es la descripción</description> -->
     </head>
@@ -13,8 +14,8 @@
             <h3>Esto es una lista ordenada</h3>
             <!-- Li List Items, Ul Unordered List, Ol Ordered list -->
             <ol>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
+                <li class="textoGris fondoRojo textoGrandeNegrita">Elemento 1</li>
+                <li class="textoAzul fondoAmarillo">Elemento 2</li>
                 <li>Elemento 3</li>
                 <li>Elemento 4</li>
                 <li>Elemento 5</li>
@@ -26,7 +27,7 @@
                 <li>Elemento 4</li>
                 <li>Elemento 5</li>    
             </ul>
-            <div>
+            <div class="textoGrandeNegrita textoAzul">
                 Esto es un Div
             </div>
         </header>
@@ -40,29 +41,76 @@
                 <h5>Esto es un titulo H5</h5>
                 <h6>Esto es un titulo H6</h6>
                 <a href="https://www.google.com.co">Este es un Link Externo a Google</a><br>
-                <a href="https://www.google.com.co"><img src="https://img2.freepng.es/20180330/cew/kisspng-google-i-o-google-logo-google-5abe0c79a921e2.9653675215224044736928.jpg" alt="Ejemplo con foto de Google" /></a><br>
+                <a href="https://www.google.com.co"><img class="imagenPequeña" src="https://img2.freepng.es/20180330/cew/kisspng-google-i-o-google-logo-google-5abe0c79a921e2.9653675215224044736928.jpg" alt="Ejemplo con foto de Google" /></a><br>
                 <a href="paginatest.html">Este es un Link a una página web Interna</a>
                 <a href="formulario.html">Este es un Link a un formulario</a>
                 <article>
                     <h3>Parrafo 1</h3>
-                    <p>
+                    <p class="textoGris parrafoAngosto">
                         Esto es un párrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem repellat inventore repellendus fuga commodi totam veniam, debitis aspernatur impedit laborum alias eaque incidunt earum quia harum assumenda? Enim, optio.
                     </p>
                     <h3>Parrafo 2</h3>
-                    <p>
+                    <p class="parrafoNegro">
+                        Esto es el segundo párrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem repellat inventore repellendus fuga commodi totam veniam, debitis aspernatur impedit laborum alias eaque incidunt earum quia harum assumenda? Enim, optio.
+                    </p>
+                    <p class="parrafoNegro">
+                        Esto es el segundo párrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem repellat inventore repellendus fuga commodi totam veniam, debitis aspernatur impedit laborum alias eaque incidunt earum quia harum assumenda? Enim, optio.
+                    </p>
+                    <p class="parrafoGris">
+                        Esto es el segundo párrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem repellat inventore repellendus fuga commodi totam veniam, debitis aspernatur impedit laborum alias eaque incidunt earum quia harum assumenda? Enim, optio.
+                    </p>
+                    <p class="parrafoNegro">
+                        Esto es el segundo párrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem repellat inventore repellendus fuga commodi totam veniam, debitis aspernatur impedit laborum alias eaque incidunt earum quia harum assumenda? Enim, optio.
+                    </p>
+                    <p class="textoNegro parrafoMarginPadding">
                         Esto es el segundo párrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem repellat inventore repellendus fuga commodi totam veniam, debitis aspernatur impedit laborum alias eaque incidunt earum quia harum assumenda? Enim, optio.
                     </p>
                     <h3>Parrafo 3</h3>
-                    <p>
+                    <p id="parrafo3">
                         Esto es el tercer párrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem repellat inventore repellendus fuga commodi totam veniam, debitis aspernatur impedit laborum alias eaque incidunt earum quia harum assumenda? Enim, optio.
                     </p>
                     <span>Este es un texto corto</span>
                 </article>
                 <!-- Componentes de Tipo Imagen -->
-                <img src="https://img2.freepng.es/20180330/cew/kisspng-google-i-o-google-logo-google-5abe0c79a921e2.9653675215224044736928.jpg" alt="Ejemplo con foto de Google" />
-                <img src="./media/perritodachshund.jpg" alt="Foto de un perrito dachshund o salchicha" />
+                <img class="imagenPequeña" src="https://img2.freepng.es/20180330/cew/kisspng-google-i-o-google-logo-google-5abe0c79a921e2.9653675215224044736928.jpg" alt="Ejemplo con foto de Google" />
+                <img class="imagenPequeña" src="./media/perritodachshund.jpg" alt="Foto de un perrito dachshund o salchicha" />
             </section>
-            <section>Seccion 2</section>
+            <section>
+                <div class="contenedorConMargen">
+                    <div>Div1</div>
+                    <div>Div2</div>
+                    <div>Div3</div>
+                </div>
+                <div class="contenedorDivsGrid">
+                    <div class="divTest">Div1</div>
+                    <div class="divTest">Div2</div>
+                    <div class="divTest">Div3</div>
+                    <div class="divTest">Div4</div>
+                    <div class="divTest">Div5</div>
+                    <div class="divTest">Div6</div>
+                    <div class="divTest">Div7</div>
+                    <div class="divTest">Div8</div>
+                    <div class="divTest">Div9</div>
+                    <div class="divTest">Div10</div>
+                    <div class="divTest">Div11</div>
+                    <div class="divTest">Div12</div>
+                </div>
+                <div class="contenedorDivsFlex">
+                    <!-- <div class="divTest">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet officia reiciendis sunt veniam esse, totam sint dolorem sapiente molestiae, velit eius magni laboriosam ea, maiores voluptate soluta ut vero repellendus.</div> -->
+                    <div class="divTest">Div1</div>
+                    <div class="divTest">Div2</div>
+                    <div class="divTest">Div3</div>
+                    <div class="divTest">Div4</div>
+                    <div class="divTest">Div5</div>
+                    <div class="divTest">Div6</div>
+                    <div class="divTest">Div7</div>
+                    <div class="divTest">Div8</div>
+                    <div class="divTest">Div9</div>
+                    <div class="divTest">Div10</div>
+                    <div class="divTest">Div11</div>
+                    <div class="divTest">Div12</div>
+                </div>
+            </section>
             <section>Seccion 3</section>
         </main>
         <footer>
