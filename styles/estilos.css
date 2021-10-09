@@ -5,6 +5,8 @@ body {
 
 ul {
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navbar {
@@ -54,6 +56,7 @@ ul {
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    height: 20px;
 }
 
 .buscar:focus-within {
