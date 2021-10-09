@@ -64,7 +64,6 @@ ul {
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
-    height: 20px;
     width: 300px;
     display: flex;
     justify-content: space-between;
