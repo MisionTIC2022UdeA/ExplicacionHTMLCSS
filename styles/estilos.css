@@ -28,14 +28,14 @@ ul {
     height: 60px;
 }
 
-.button {
+.botonGenerico {
     border: 0px;
     padding: 5px 10px;
     border-radius: 16px;
     font-weight: bolder;
 }
 
-.button:hover {
+.botonGenerico:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -76,4 +76,8 @@ ul {
 .buscar > input {
     outline: none;
     border: 0px;
+}
+
+.iconoBusqueda:hover {
+    color: blue
 }
