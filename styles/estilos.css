@@ -109,6 +109,15 @@ ul {
     justify-content: center;
 }
 
+.breedInteraction {
+    color: white;
+    margin: 10px;
+    display: flex;
+    font-weight: bold;
+    padding-top: 5px;
+    justify-content: space-around;
+}
+
 .contenedorImagen {
     width: 240px;
     height: 350px;
@@ -126,4 +135,15 @@ ul {
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    color: gray;
+    padding-top: 15px;
+}
+
+.iconoMeGusta{
+    color: red;
 }
