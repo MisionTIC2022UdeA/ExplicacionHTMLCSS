@@ -18,18 +18,33 @@ ul {
     height: 60px;
 }
 
-.mainButton {
-    background-color: #1bb76e;
-    color: white;
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 16px;
     font-weight: bolder;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: #1bb76e;
+    color: white;
     /* box-shadow: 1px 1px green; */
 }
 
-.mainButton:hover{
-    cursor: pointer;
+.mainButton:hover {
     box-shadow: 2px 2px black;
-    transform: scale(1.1);
+}
+
+.secondaryButton {
+    background-color: #1e8de9;
+    color: white;
+}
+
+.secondaryButton:hover {
+    box-shadow: 2px 2px rgb(4, 9, 82);
 }
