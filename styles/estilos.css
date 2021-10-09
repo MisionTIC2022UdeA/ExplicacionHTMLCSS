@@ -1,0 +1,69 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: #1bb76e;
+    color: white;
+    /* box-shadow: 1px 1px green; */
+}
+
+.mainButton:hover {
+    box-shadow: 2px 2px black;
+}
+
+.secondaryButton {
+    background-color: #1e8de9;
+    color: white;
+}
+
+.secondaryButton:hover {
+    box-shadow: 2px 2px rgb(4, 9, 82);
+}
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+    height: 20px;
+}
+
+.buscar:focus-within {
+    border: 1px solid blue;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
