@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -16,4 +16,20 @@ ul{
 
 .logo {
     height: 60px;
+}
+
+.mainButton {
+    background-color: #1bb76e;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-weight: bolder;
+    /* box-shadow: 1px 1px green; */
+}
+
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+    transform: scale(1.1);
 }
