@@ -14,7 +14,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    margin: 0px;
+    margin: 8px;
     background-color: rgba(243, 243, 243, 0.973);
     border-bottom: 1px solid gray;
     box-shadow: 1px 1px gray;
@@ -31,9 +31,13 @@ ul {
 
 .botonGenerico {
     border: 0px;
-    padding: 10px 10px;
+    padding: 5px 10px;
     border-radius: 8px;
     font-weight: bolder;
+}
+
+.alturaBotonColores {
+    padding: 10px
 }
 
 .botonGenerico:hover {
