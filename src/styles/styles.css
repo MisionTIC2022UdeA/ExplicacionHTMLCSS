@@ -1,0 +1,149 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 8px;
+  background-color: rgba(243, 243, 243, 0.973);
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 1px gray;
+}
+
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+.botonGenerico {
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+.alturaBotonColores {
+  padding: 10px
+}
+
+.botonGenerico:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainButton {
+  background-color: #1bb76e;
+  color: white;
+  /* box-shadow: 1px 1px green; */
+}
+
+.mainButton:hover {
+  box-shadow: 2px 2px black;
+}
+
+.secondaryButton {
+  background-color: #1e8de9;
+  color: white;
+}
+
+.secondaryButton:hover {
+  box-shadow: 2px 2px rgb(4, 9, 82);
+}
+
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buscar:focus-within {
+  border: 1px solid blue;
+}
+
+.buscar > input {
+  outline: none;
+  border: 0px;
+}
+
+.iconoBusqueda:hover {
+  color: blue
+}
+
+.breedCardContainer {
+  display: flex;
+}
+
+.breedCard {
+  margin: 10px;
+  background-color: rgb(78, 78, 90);
+  box-shadow: 5px 10px 5px rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+.breedTitle {
+  color: white;
+  /* margin: 10px; */
+  margin: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  /* Las 2 lineas a continuación no están incluidas en la clase del profe */
+  display: flex;
+  justify-content: center;
+}
+
+.breedInteraction {
+  color: white;
+  margin: 10px;
+  display: flex;
+  font-weight: bold;
+  padding-top: 5px;
+  justify-content: space-around;
+}
+
+.contenedorImagen {
+  width: 240px;
+  height: 350px;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.contenedorImagen:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.contenedorImagen > img {
+  object-fit: cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.titulo {
+  text-align: center;
+  text-transform: uppercase;
+  color: gray;
+  padding-top: 15px;
+}
+
+.iconoMeGusta{
+  color: red;
+}
